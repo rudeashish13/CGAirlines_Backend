@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CGAirlines.Controllers
+namespace AirLineReservationServices.Controllers
 {
     [ApiController]
     [Route("[controller]")]

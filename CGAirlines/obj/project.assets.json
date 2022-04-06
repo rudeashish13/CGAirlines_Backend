@@ -5983,9 +5983,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\reach\\source\\repos\\CGAirlines\\CGAirlines\\CGAirlines.csproj",
-      "projectName": "CGAirlines",
-      "projectPath": "C:\\Users\\reach\\source\\repos\\CGAirlines\\CGAirlines\\CGAirlines.csproj",
+      "projectUniqueName": "C:\\Users\\reach\\source\\repos\\CGAirlines\\CGAirlines\\AirLineReservationServices.csproj",
+      "projectName": "AirLineReservationServices",
+      "projectPath": "C:\\Users\\reach\\source\\repos\\CGAirlines\\CGAirlines\\AirLineReservationServices.csproj",
       "packagesPath": "C:\\Users\\reach\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\reach\\source\\repos\\CGAirlines\\CGAirlines\\obj\\",
       "projectStyle": "PackageReference",
