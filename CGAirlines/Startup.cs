@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AirLineReservationServices.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace AirLineReservationServices
 {
@@ -28,6 +30,9 @@ namespace AirLineReservationServices
         {
 
             services.AddControllers();
+
+            services.AddDbContext<AirLineDbContext>(options => options.UseSqlServer("name=ConnectionStrings:CGAirlinesDB"));
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CGAirlines", Version = "v1" });
